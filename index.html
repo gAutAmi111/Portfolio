@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>MyPortfolio</title>
+</head>
+<header>
+    <a href="#" class="logo">Gautami</a>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<body>
+    <!-- home section -->
+    <section class="home">
+        <div class="home-content">
+            <h1>Hello, I'm <span>Gautami</span></h1>
+            <h3>Information Technology Student<span></span></h3>
+            <p>Explore my work and let's connect!</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/gautami-gawde/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/gAutAmi111"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.facebook.com/gautami.gawde.50/"><i class="fa-solid fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/gomzy_11/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="#" class="btn">Explore</a>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <img src="imgs/Gautami_Gawade.png" alt="Profile Picture">
+                <h2>Gautami Gawade</h2>
+                <p><i class="fa-solid fa-cake-candles"></i> 11-11-2002</p>
+                <p><i class="fa-solid fa-phone"></i> +91 9326192325</p>
+                <p><i class="fa-solid fa-envelope"></i> gautamigawade11@gmail.com</p>
+                <p><i class="fa-solid fa-location-dot"></i> Mira Road, Mumbai, Maharashtra</p>
+
+                <div class="personal-interests">
+                    <h3>Personal Interests</h3>
+                    <ul>
+                        <li>Coding</li>
+                        <li>Learning new things</li>
+                        <li>Designing</li>
+                        <li>Dancing</li>
+                        <li>Listening to music</li>
+                        <li>Photography</li>
+                        <li>Badminton</li>
+                    </ul>
+                </div>
+                <a href="Gautamigawade_Resume.pdf" download="Gautamigawade_Resume.pdf">
+                    <button>Download Resume</button>
+                </a>
+
+            </div>
+
+            <!-- About section -->
+            <div class="content">
+                <div class="section">
+                    <h3>About Me</h3>
+                    <p>I'm a recent graduate in Information Technology with a passion for Full stack Development with
+                        Python. I’m excited to contribute to meaningful
+                        projects and grow within IT industry. My journey started with a passion for Web Development, and
+                        I'm eager to learn, grow, and create meaningful work.
+                        I thrive on exploring new ideas, challenging myself, and finding creative solutions. While I'm
+                        just starting, I believe every great story begins with a single step—and this is mine.
+                        Let’s connect and create something amazing together!</p>
+                    <p></p>
+                </div>
+
+                <div class="section">
+                    <h3>Education</h3>
+                    <p>2020 - 2024</p>
+                    <p>Bachelor of Engineering in Information Technology</p>
+                    <p>Universal College Of Engineering</p>
+                    <p>Grade A</p>
+                </div>
+
+                <div class="section">
+                    <h3>Additional Courses & Training</h3>
+                    <p>2024 - 2025</p>
+                    <p>Masters in Full Stack Development with Python</p>
+                    <p>IT Vedant Education</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Skills section-->
+    <section id="skills">
+        <section class="skills-section">
+            <h1 class="title">Skills</h1>
+            <p class="subtitle">Here are some of my top skills:</p>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <img src="imgs/Html.png" alt="HTML">
+                    <h3>HTML</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 97%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <img src="imgs/Css.png" alt="CSS">
+                    <h3>CSS</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <img src="imgs/Bootstrap.png" alt="Bootstrap">
+                    <h3>Bootstrap</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <img src="imgs/mysql.png" alt="MySQL">
+                    <h3>MySQL</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 30%;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Projects section-->
+    <section id="projects" class="container">
+        <div class="header">
+            <h1>Projects</h1>
+        </div>
+
+        <div class="projects-content">
+            <p>Explore a section of my projects that showcase my skills. 
+                <br>
+                From creative solutions to technical innovations, each project reflects my passion for delivering quality work. </p>
+        </div>
+
+        <div class="projects">
+            <div class="project-card">
+                <img src="imgs/Project1.png" alt="GoIndia Tourism Website">
+                <div class="project-content">
+                    <div class="tags">
+                        <span class="tag">Website</span>
+                        <span class="tag">Html, CSS</span>
+                    </div>
+                    <p class="project-title">GoIndia Tourism</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="" alt="">
+                <div class="project-content">
+                    <div class="tags">
+                        <span class="tag">Website</span>
+                        <span class="tag">Technology</span>
+                    </div>
+                    <p class="project-title">Project 2</p>
+
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="" alt="">
+                <div class="project-content">
+                    <div class="tags">
+                        <span class="tag">Website</span>
+                        <span class="tag">Technology</span>
+                    </div>
+                    <p class="project-title">Project 3</p>
+                </div>
+            </div>
+    </section>
+
+     <!-- contact section-->
+     <section class="contact-section" id="contact">
+        <div class="contact-container">
+          <div class="contact-text">
+            <h2>If you like what you see, let’s work together.</h2>
+            <p>
+                "I would love to hear from you! Whether it's for a project or a friendly chat, feel free to reach out."
+              </p>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d941.5132675670463!2d72.87555490000001!3d19.2800582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b182913095bb%3A0xa404a8adfba7060a!2sVAMA!5e0!3m2!1sen!2sin!4v1736072380992!5m2!1sen!2sin" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <form class="contact-form">
+            <div class="input-group">
+              <input type="text" name="name" placeholder="Name *" required />
+              <input type="email" name="email" placeholder="Email *" required />
+            </div>
+            <textarea
+              name="message"
+              rows="5"
+              placeholder="Message *"
+              required></textarea>
+            <button type="submit">Send message</button>
+          </form>
+        </div>
+        <footer>
+          <p>Made with &#x2764; by Gautami © 2025</p>
+        </footer>
+      </section>
+      
+</body>
+</html>
